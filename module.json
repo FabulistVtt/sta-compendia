@@ -1,0 +1,125 @@
+{
+    "name": "sta-compendia",
+    "title": "Compendia for Star Trek Adventures (Unofficial)",
+    "description": "Provides compendia of species, talents, focusses, ships, weapons and NPCs for use with the STA system.",
+    "author": "Fabulist",
+    "version": "0.1.0",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "dependencies":
+    {
+        "name": "sta",
+        "type": "system"
+    },
+    "packs" :
+    [
+        {
+            "label": "Weapons (Core Starfleet)",
+            "name": "weapons-core",
+            "path": "packs/weapons-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Values (Core Starfleet)",
+            "name": "values-core",
+            "path": "packs/values-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Species Talents (Core Starfleet)",
+            "name": "species-talents-core",
+            "path": "packs/species-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "General Talents (Core Starfleet)",
+            "name": "general-talents-core",
+            "path": "packs/general-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Command Talents (Core Starfleet)",
+            "name": "command-talents-core",
+            "path": "packs/command-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Conn Talents (Core Starfleet)",
+            "name": "conn-talents-core",
+            "path": "packs/conn-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Security Talents (Core Starfleet)",
+            "name": "security-talents-core",
+            "path": "packs/security-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Engineering Talents (Core Starfleet)",
+            "name": "enginering-talents-core",
+            "path": "packs/engineering-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Science Talents (Core Starfleet)",
+            "name": "science-talents-core",
+            "path": "packs/science-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Medical Talents (Core Starfleet)",
+            "name": "medical-talents-core",
+            "path": "packs/medical-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Starship Talents (Core Starfleet)",
+            "name": "starship-talents-core",
+            "path": "packs/starship-talents-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Focuses (Core Starfleet)",
+            "name": "focuses-core",
+            "path": "packs/focuses-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Roles (Core Starfleet)",
+            "name": "roles-core",
+            "path": "packs/roles-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Damage (Core Starfleet)",
+            "name": "damage-core",
+            "path": "packs/damage-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Equipment (Core Starfleet)",
+            "name": "equipment-core",
+            "path": "packs/equipment-core.db",
+            "system": "sta",
+            "type": "Item"
+        }
+    ],
+    "url": "https://github.com/FabulistVtt/sta-compendia",
+    "manifest": "https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json",
+    "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.1.0/sta-compendia-v0.1.0.zip"
+  }
