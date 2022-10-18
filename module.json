@@ -117,6 +117,41 @@
             "path": "packs/equipment-core.db",
             "system": "sta",
             "type": "Item"
+        },
+        {
+            "label": "Roll Tables (Core Starfleet)",
+            "name": "roll-tables-core",
+            "path": "packs/roll-tables-core.db",
+            "system": "sta",
+            "type": "RollTable"
+        },
+        {
+            "label": "Playable Species (Core Starfleet)",
+            "name": "playable-species-core",
+            "path": "packs/playable-species-core.db",
+            "system": "sta",
+            "type": "JournalEntry"
+        },
+        {
+            "label": "Starship Weapons (Core Starfleet)",
+            "name": "starship-weapons-core",
+            "path": "packs/starship-weapons-core.db",
+            "system": "sta",
+            "type": "Item"
+        },
+        {
+            "label": "Starfleet Starships (Core Starfleet)",
+            "name": "starfleet-starships-core",
+            "path": "packs/starfleet-starships-core.db",
+            "system": "sta",
+            "type": "Actor"
+        },
+        {
+            "label": "Alien Starships (Core Starfleet)",
+            "name": "alien-starships-core",
+            "path": "packs/alien-starships-core.db",
+            "system": "sta",
+            "type": "Actor"
         }
     ],
     "url": "https://github.com/FabulistVtt/sta-compendia",
