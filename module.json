@@ -2,10 +2,20 @@
     "name": "sta-compendia",
     "title": "Compendia for Star Trek Adventures (Unofficial)",
     "description": "Provides compendia of species, talents, focusses, ships, weapons and NPCs for use with the STA system.",
-    "author": "Fabulist",
-    "version": "0.1.0",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9",
+    "authors":
+    [
+        {
+            "name": "Fabulist",
+            "url": "https://foundryvtt.com/community/fabulist"
+        }
+    ],
+    "version": "0.5.0",
+    "compatibility":
+    {
+    "minimum": "9",
+    "verified": "10.291",
+    "maximum": "10"
+    },
     "dependencies":
     {
         "name": "sta",
