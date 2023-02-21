@@ -12,14 +12,21 @@
     "version": "0.5.0",
     "compatibility":
     {
-    "minimum": "9",
-    "verified": "10.291",
-    "maximum": "10"
+        "minimum": "10",
+        "verified": "10.291",
+        "maximum": "10"
     },
-    "dependencies":
-    {
-        "name": "sta",
-        "type": "system"
+    "relationships": {
+        "systems": [
+            {
+                "id": "sta",
+                "manifest": "https://raw.githubusercontent.com/mkscho63/sta/master/src/system.json",
+                "compatibility": {
+                    "minimum": "1.1.9",
+                    "verified": "1.1.9"
+                }
+            }
+        ]
     },
     "esmodules": ["module/sta-compendia.js"],
     "packs" :
@@ -153,5 +160,5 @@
     ],
     "url": "https://github.com/FabulistVtt/sta-compendia",
     "manifest": "https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json",
-    "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.1.0/sta-compendia-v0.1.0.zip"
+    "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.5.0/sta-compendia-v0.5.0.zip"
   }
