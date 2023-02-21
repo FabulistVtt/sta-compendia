@@ -11,12 +11,13 @@
         "name": "sta",
         "type": "system"
     },
+    "esmodules": ["module/sta-compendia.js"],
     "packs" :
     [
         {
-            "label": "Weapons (Core Starfleet)",
-            "name": "weapons-core",
-            "path": "packs/weapons-core.db",
+            "label": "Personal Weapons (Core Starfleet)",
+            "name": "personal-weapons-core",
+            "path": "packs/personal-weapons-core.db",
             "system": "sta",
             "type": "Item"
         },
@@ -42,44 +43,9 @@
             "type": "Item"
         },
         {
-            "label": "Command Talents (Core Starfleet)",
-            "name": "command-talents-core",
-            "path": "packs/command-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Conn Talents (Core Starfleet)",
-            "name": "conn-talents-core",
-            "path": "packs/conn-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Security Talents (Core Starfleet)",
-            "name": "security-talents-core",
-            "path": "packs/security-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Engineering Talents (Core Starfleet)",
-            "name": "enginering-talents-core",
-            "path": "packs/engineering-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Science Talents (Core Starfleet)",
-            "name": "science-talents-core",
-            "path": "packs/science-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Medical Talents (Core Starfleet)",
-            "name": "medical-talents-core",
-            "path": "packs/medical-talents-core.db",
+            "label": "Discipline Talents (Core Starfleet)",
+            "name": "discipline-talents-core",
+            "path": "packs/discipline-talents-core.db",
             "system": "sta",
             "type": "Item"
         },
@@ -112,9 +78,9 @@
             "type": "Item"
         },
         {
-            "label": "Equipment (Core Starfleet)",
-            "name": "equipment-core",
-            "path": "packs/equipment-core.db",
+            "label": "Personal Equipment (Core Starfleet)",
+            "name": "personal-equipment-core",
+            "path": "packs/personal-equipment-core.db",
             "system": "sta",
             "type": "Item"
         },
@@ -152,6 +118,27 @@
             "path": "packs/alien-starships-core.db",
             "system": "sta",
             "type": "Actor"
+        },
+        {
+            "label": "Manual & Tutorials (Core Starfleet)",
+            "name": "manual-tutorials-core",
+            "path": "packs/manual-tutorials-core.db",
+            "system": "sta",
+            "type": "JournalEntry"
+        },
+        {
+            "label": "NPC Starship Crew (Core Starfleet)",
+            "name": "npc-starship-crew-core",
+            "path": "packs/npc-starship-crew-core.db",
+            "system": "sta",
+            "type": "Actor"
+        },
+        {
+            "label": "Default Maps (Core Starfleet)",
+            "name": "default-maps",
+            "path": "packs/default-maps-core.db",
+            "system": "sta",
+            "type": "Scene"
         }
     ],
     "url": "https://github.com/FabulistVtt/sta-compendia",
