@@ -1,164 +1,201 @@
 {
-    "name": "sta-compendia",
-    "title": "Compendia for Star Trek Adventures (Unofficial)",
-    "description": "Provides compendia of species, talents, focusses, ships, weapons and NPCs for use with the STA system.",
-    "authors":
-    [
-        {
-            "name": "Fabulist",
-            "url": "https://foundryvtt.com/community/fabulist"
-        }
-    ],
-    "version": "0.5.0",
-    "compatibility":
+  "title": "Compendia for Star Trek Adventures (Unofficial)",
+  "description": "Provides compendia of species, talents, focusses, ships, weapons and NPCs for use with the STA system.",
+  "authors": [
     {
-        "minimum": "10",
-        "verified": "10.291",
-        "maximum": "10"
+      "name": "Fabulist",
+      "url": "https://foundryvtt.com/community/fabulist",
+      "flags": {}
+    }
+  ],
+  "version": "0.5.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "sta",
+        "manifest": "https://raw.githubusercontent.com/mkscho63/sta/master/src/system.json",
+        "compatibility": {
+          "minimum": "1.1.9",
+          "verified": "1.1.9"
+        },
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "module/sta-compendia.js"
+  ],
+  "packs": [
+    {
+      "label": "Personal Weapons (Core Starfleet)",
+      "name": "personal-weapons-core",
+      "path": "packs/personal-weapons-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
-    "relationships": {
-        "systems": [
-            {
-                "id": "sta",
-                "manifest": "https://raw.githubusercontent.com/mkscho63/sta/master/src/system.json",
-                "compatibility": {
-                    "minimum": "1.1.9",
-                    "verified": "1.1.9"
-                }
-            }
-        ]
+    {
+      "label": "Values (Core Starfleet)",
+      "name": "values-core",
+      "path": "packs/values-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
-    "esmodules": ["module/sta-compendia.js"],
-    "packs" :
-    [
-        {
-            "label": "Personal Weapons (Core Starfleet)",
-            "name": "personal-weapons-core",
-            "path": "packs/personal-weapons-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Values (Core Starfleet)",
-            "name": "values-core",
-            "path": "packs/values-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Species Talents (Core Starfleet)",
-            "name": "species-talents-core",
-            "path": "packs/species-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "General Talents (Core Starfleet)",
-            "name": "general-talents-core",
-            "path": "packs/general-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Discipline Talents (Core Starfleet)",
-            "name": "discipline-talents-core",
-            "path": "packs/discipline-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Starship Talents (Core Starfleet)",
-            "name": "starship-talents-core",
-            "path": "packs/starship-talents-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Focuses (Core Starfleet)",
-            "name": "focuses-core",
-            "path": "packs/focuses-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Roles (Core Starfleet)",
-            "name": "roles-core",
-            "path": "packs/roles-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Damage (Core Starfleet)",
-            "name": "damage-core",
-            "path": "packs/damage-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Personal Equipment (Core Starfleet)",
-            "name": "personal-equipment-core",
-            "path": "packs/personal-equipment-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Roll Tables (Core Starfleet)",
-            "name": "roll-tables-core",
-            "path": "packs/roll-tables-core.db",
-            "system": "sta",
-            "type": "RollTable"
-        },
-        {
-            "label": "Playable Species (Core Starfleet)",
-            "name": "playable-species-core",
-            "path": "packs/playable-species-core.db",
-            "system": "sta",
-            "type": "JournalEntry"
-        },
-        {
-            "label": "Starship Weapons (Core Starfleet)",
-            "name": "starship-weapons-core",
-            "path": "packs/starship-weapons-core.db",
-            "system": "sta",
-            "type": "Item"
-        },
-        {
-            "label": "Starfleet Starships (Core Starfleet)",
-            "name": "starfleet-starships-core",
-            "path": "packs/starfleet-starships-core.db",
-            "system": "sta",
-            "type": "Actor"
-        },
-        {
-            "label": "Alien Starships (Core Starfleet)",
-            "name": "alien-starships-core",
-            "path": "packs/alien-starships-core.db",
-            "system": "sta",
-            "type": "Actor"
-        },
-        {
-            "label": "Manual & Tutorials (Core Starfleet)",
-            "name": "manual-tutorials-core",
-            "path": "packs/manual-tutorials-core.db",
-            "system": "sta",
-            "type": "JournalEntry"
-        },
-        {
-            "label": "NPC Starship Crew (Core Starfleet)",
-            "name": "npc-starship-crew-core",
-            "path": "packs/npc-starship-crew-core.db",
-            "system": "sta",
-            "type": "Actor"
-        },
-        {
-            "label": "Default Maps (Core Starfleet)",
-            "name": "default-maps",
-            "path": "packs/default-maps-core.db",
-            "system": "sta",
-            "type": "Scene"
-        }
-    ],
-    "url": "https://github.com/FabulistVtt/sta-compendia",
-    "manifest": "https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json",
-    "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.5.0/sta-compendia-v0.5.0.zip"
-  }
+    {
+      "label": "Species Talents (Core Starfleet)",
+      "name": "species-talents-core",
+      "path": "packs/species-talents-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "General Talents (Core Starfleet)",
+      "name": "general-talents-core",
+      "path": "packs/general-talents-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Discipline Talents (Core Starfleet)",
+      "name": "discipline-talents-core",
+      "path": "packs/discipline-talents-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Starship Talents (Core Starfleet)",
+      "name": "starship-talents-core",
+      "path": "packs/starship-talents-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Focuses (Core Starfleet)",
+      "name": "focuses-core",
+      "path": "packs/focuses-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Roles (Core Starfleet)",
+      "name": "roles-core",
+      "path": "packs/roles-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Damage (Core Starfleet)",
+      "name": "damage-core",
+      "path": "packs/damage-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Personal Equipment (Core Starfleet)",
+      "name": "personal-equipment-core",
+      "path": "packs/personal-equipment-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Roll Tables (Core Starfleet)",
+      "name": "roll-tables-core",
+      "path": "packs/roll-tables-core.db",
+      "system": "sta",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Playable Species (Core Starfleet)",
+      "name": "playable-species-core",
+      "path": "packs/playable-species-core.db",
+      "system": "sta",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Starship Weapons (Core Starfleet)",
+      "name": "starship-weapons-core",
+      "path": "packs/starship-weapons-core.db",
+      "system": "sta",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Starfleet Starships (Core Starfleet)",
+      "name": "starfleet-starships-core",
+      "path": "packs/starfleet-starships-core.db",
+      "system": "sta",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Alien Starships (Core Starfleet)",
+      "name": "alien-starships-core",
+      "path": "packs/alien-starships-core.db",
+      "system": "sta",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Manual & Tutorials (Core Starfleet)",
+      "name": "manual-tutorials-core",
+      "path": "packs/manual-tutorials-core.db",
+      "system": "sta",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "NPC Starship Crew (Core Starfleet)",
+      "name": "npc-starship-crew-core",
+      "path": "packs/npc-starship-crew-core.db",
+      "system": "sta",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Default Maps (Core Starfleet)",
+      "name": "default-maps",
+      "path": "packs/default-maps-core.db",
+      "system": "sta",
+      "type": "Scene",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/FabulistVtt/sta-compendia",
+  "manifest": "https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json",
+  "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.5.1/sta-compendia-v0.5.1.zip",
+  "id": "sta-compendia"
+}

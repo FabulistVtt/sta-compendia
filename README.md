@@ -6,9 +6,9 @@ This is the repository for the "Star Trek Adventures Compendia" module for "Foun
 
 ## Features
 The Unofficial Star Trek Adventures Compendia makes setting up a game of "Star Trek Adventures" in "Foundry VTT" easy and effortless by providing compendia for many often used aspects of the game. Currently available compendia are:
-- Character roles (modelled as Talents)
+- Character roles (modeled as Talents)
 - Character talents (species-specific, Command, Conn, Security, Engineering, Science, Medical, and general)
-- Example character focusses
+- Example character focuses
 - Example character values
 - Personal weapons and equipment (W.I.P.)
 - Starship talents
