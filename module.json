@@ -8,7 +8,7 @@
       "flags": {}
     }
   ],
-  "version": "0.5.1",
+  "version": "0.5.2",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291",
@@ -196,6 +196,6 @@
   ],
   "url": "https://github.com/FabulistVtt/sta-compendia",
   "manifest": "https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json",
-  "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.5.1/sta-compendia-v0.5.1.zip",
+  "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.5.2/sta-compendia-v0.5.2.zip",
   "id": "sta-compendia"
 }
