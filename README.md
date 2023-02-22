@@ -23,6 +23,7 @@ The Unofficial Star Trek Adventures Compendia makes setting up a game of "Star T
 - Foundry VTT 10.x https://foundryvtt.com
 - Star Trek Adventures (Unofficial) https://github.com/mkscho63/sta
 - Optional, but recommended: LCARS UI for Star Trek Adventures (Unofficial) https://github.com/FabulistVtt/sta-lcars-ui
+- Manual Installation via Manifest URL: https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json
 
 ## Important Copyright Notice for Users and Contributors
 Due to the agreement with Modiphius Entertainment Ltd. to use their copyrighted material for this module, "Star Trek Adventures Compendia" can and will not provide content outside of the Starfleet "Core Rulebook" an/or content relating to NPCs and their stats. Gamemasters can easily create Talents, NPCs, and Alien Starships using the materials from "Star Trek Adventures Compendia" for personal use, but may not upload them (see below). My agreement with Modiphius Entertainment Ltd. for this module covers player-facing textual content from the original Starfleet "Core Rulebook" (English edition) only. **Please do not submit Issues or Pull requests asking for or containing any of the following**:
