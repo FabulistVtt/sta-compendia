@@ -8,11 +8,11 @@
       "flags": {}
     }
   ],
-  "version": "0.5.2",
+  "version": "0.5.3",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.291",
-    "maximum": "10"
+    "verified": "11.301",
+    "maximum": "11"
   },
   "relationships": {
     "systems": [
@@ -21,7 +21,7 @@
         "manifest": "https://raw.githubusercontent.com/mkscho63/sta/master/src/system.json",
         "compatibility": {
           "minimum": "1.1.9",
-          "verified": "1.1.9"
+          "verified": "1.1.11"
         },
         "type": "system"
       }
