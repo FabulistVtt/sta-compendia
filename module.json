@@ -8,11 +8,11 @@
       "flags": {}
     }
   ],
-  "version": "0.5.2",
+  "version": "0.5.3",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.291",
-    "maximum": "10"
+    "verified": "11.311",
+    "maximum": "11"
   },
   "relationships": {
     "systems": [
@@ -21,7 +21,7 @@
         "manifest": "https://raw.githubusercontent.com/mkscho63/sta/master/src/system.json",
         "compatibility": {
           "minimum": "1.1.9",
-          "verified": "1.1.9"
+          "verified": "1.1.11"
         },
         "type": "system"
       }
@@ -196,6 +196,6 @@
   ],
   "url": "https://github.com/FabulistVtt/sta-compendia",
   "manifest": "https://raw.githubusercontent.com/FabulistVtt/sta-compendia/main/module.json",
-  "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.5.2/sta-compendia-v0.5.2.zip",
+  "download": "https://github.com/FabulistVtt/sta-compendia/releases/download/v0.5.3/sta-compendia-v0.5.3.zip",
   "id": "sta-compendia"
 }
